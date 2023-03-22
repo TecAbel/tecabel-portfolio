@@ -1,6 +1,6 @@
 import { ThemePortfolio } from "@/utils/theme"
 import { FC } from "react"
-import { MdNightlightRound } from 'react-icons/all'
+import { MdNightlightRound } from 'react-icons/md'
 
 export const NavigationBar: FC = () => {
   const themeService = new ThemePortfolio()
@@ -33,8 +33,6 @@ export const NavigationBar: FC = () => {
             onClick={() => onThemeToogle()}
             className="
             rounded-md
-            border-[1px]
-            border-white
             bg-main-dark
             dark:bg-main
             text-white
