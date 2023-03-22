@@ -21,14 +21,14 @@ export const NavigationBar: FC = () => {
         absolute
         w-full
         z-10
-        p-2
+        p-3
         grid
         gap-4
         justify-between
         grid-cols-4
         ">
         <div className="col-span-3">navigation bar</div>
-        <div className="col-span-1">
+        <div className="col-span-1 flex justify-end">
           <button
             onClick={() => onThemeToogle()}
             className="
@@ -36,9 +36,12 @@ export const NavigationBar: FC = () => {
             border-[1px]
             border-white
             bg-main-dark
+            dark:bg-main
             text-white
+            dark:text-main-dark
             p-2
             shadow-black
+            dark:shadow-main
             shadow-sm
             ">
             <MdNightlightRound />
