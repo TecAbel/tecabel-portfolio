@@ -17,8 +17,9 @@ button:target {
 
 @layer components {
   .technology-item {
-    @apply text-lg
-      sm:text-3xl
+    @apply mx-auto
+      text-4xl
+      sm:text-5xl
       md:text-5xl
       lg:text-7xl;
     &.angular {
