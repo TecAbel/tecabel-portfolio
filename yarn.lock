@@ -1327,6 +1327,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-react-hooks@npm:next":
+  version: 5.0.0-next-8e17bfd14-20230322
+  resolution: "eslint-plugin-react-hooks@npm:5.0.0-next-8e17bfd14-20230322"
+  peerDependencies:
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+  checksum: b8cb3cc1e6c4f529856d3fb5822d72d543c21a8a2d5e9ec87bb2c99c77636c1fb78af034a79d96236b770d1129e5b12e95cf32f90c954e9efe8d1a8a4be676b1
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-react@npm:^7.31.7":
   version: 7.32.2
   resolution: "eslint-plugin-react@npm:7.32.2"
@@ -3700,6 +3709,7 @@ __metadata:
     autoprefixer: ^10.4.14
     eslint: 8.36.0
     eslint-config-next: 13.2.4
+    eslint-plugin-react-hooks: next
     next: 13.2.4
     postcss: ^8.4.21
     prettier: ^2.8.6
