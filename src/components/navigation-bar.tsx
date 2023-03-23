@@ -1,5 +1,7 @@
 import { FC } from 'react'
 import { ThemeButton } from './ThemeButton'
+import { MdDvr } from 'react-icons/md'
+import Link from 'next/link'
 
 export const NavigationBar: FC = () => {
   return (
@@ -25,11 +27,32 @@ export const NavigationBar: FC = () => {
         p-3
         "
       >
-        <div className="col-span-3">Abelardo Aqui</div>
+        <div className="col-span-3 flex gap-4">
+          <div className="flex items-center gap-1">
+            <span className="text-2xl">
+              <MdDvr />
+            </span>{' '}
+            <strong>Abelardo Aqui</strong>
+          </div>
+          <NavSections />
+        </div>
         <div className="col-span-1 flex justify-end">
           <ThemeButton />
         </div>
       </div>
     </div>
+  )
+}
+
+const NavSections: FC = () => {
+  return (
+    <ul className="flex items-center gap-4">
+      <li>
+        <Link href={'/'}>Home</Link>
+      </li>
+      <li>
+        <Link href={'/home'}>Jobs</Link>
+      </li>
+    </ul>
   )
 }
