@@ -35,4 +35,16 @@ button:target {
       color: #e0234e;
     }
   }
+
+  .section-title {
+    @apply w-fit
+    rounded-md
+    bg-gray-300
+    py-1
+    px-3
+    text-2xl
+    text-main-dark
+    underline
+    underline-offset-2;
+  }
 }
