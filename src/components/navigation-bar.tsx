@@ -5,16 +5,7 @@ import Link from 'next/link'
 
 export const NavigationBar: FC = () => {
   return (
-    <div className="fixed left-0 right-0 w-full">
-      <div
-        className="
-        absolute 
-        z-[1]
-        h-[4rem]
-        w-full
-        bg-transparent blur-sm
-        "
-      ></div>
+    <div className="fixed z-50 left-0 right-0 w-full">
       <div
         className="
         absolute
@@ -24,6 +15,9 @@ export const NavigationBar: FC = () => {
         grid-cols-4
         justify-between
         gap-4
+        bg-main/60
+        dark:bg-main-dark/60
+        backdrop-blur-md
         p-3
         "
       >
