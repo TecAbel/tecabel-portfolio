@@ -34,6 +34,8 @@ export const MainLayout: FC<MainLayout> = ({
             sm:grid-cols-4
             md:grid-cols-4
             lg:grid-cols-4
+            animate__animated
+            animate__pulse
             "
           >
             <FaAngular className="technology-item angular" />
@@ -41,7 +43,15 @@ export const MainLayout: FC<MainLayout> = ({
             <TbBrandNextjs className="technology-item next" />
             <SiNestjs className="technology-item nest" />
           </div>
-          {children}
+          <div
+            className="
+            animate__animated
+            animate__fadeInUp
+          "
+          >
+
+            {children}
+          </div>
         </div>
       </main>
     </>

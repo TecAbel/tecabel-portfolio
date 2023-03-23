@@ -2,7 +2,15 @@ import Image from 'next/image'
 
 export const HeadPortfolio = () => {
   return (
-    <div className="mt-12 grid w-full grid-cols-1 sm:grid-cols-2">
+    <div
+      className="
+        mt-12
+        grid
+        w-full
+        grid-cols-1
+        sm:grid-cols-2
+    "
+    >
       <div className="flex flex-col justify-between gap-2">
         <p
           className="
