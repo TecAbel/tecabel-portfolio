@@ -2,12 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
   width: 100%;
 }
 
-button:active, button:focus, button:target {
+button:active,
+button:focus,
+button:target {
   outline: none;
+}
+
+@layer components {
+  .technology-item {
+    @apply text-lg
+      sm:text-3xl
+      md:text-5xl
+      lg:text-7xl;
+    &.angular {
+      color: #bd002e;
+    }
+    &.react {
+      color: #71cbe7;
+    }
+    &.next {
+      color: #69c3f7;
+    }
+    &.nest {
+      color: #e0234e;
+    }
+  }
 }

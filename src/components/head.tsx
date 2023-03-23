@@ -1,4 +1,4 @@
 
 export const HeadPortfolio = () => {
-  return (<div className="mt-[10rem]">Este es el Head</div>)
+  return (<div className="mt-8">Este es el Head</div>)
 }
