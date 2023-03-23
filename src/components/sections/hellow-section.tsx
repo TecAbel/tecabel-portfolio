@@ -2,7 +2,7 @@ import { FC } from 'react'
 
 export const HellowSection: FC = () => {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 text-justify">
       <p
         className="
         section-title
@@ -12,21 +12,20 @@ export const HellowSection: FC = () => {
       >
         About me
       </p>
-      <p className="text-justify">
+      <p>
         My fullname is Abelardo Aqui, I&apos;ve been working as a developer
         since january 2020.
       </p>
-      <p className="text-justify">
-        At my first job, y learnded an awasome javascript framework{' '}
+      <p>
+        At my first job, y learnded an awasome javascript framework...{' '}
         <strong className="text-main-dark underline dark:text-main">
           Angular
         </strong>
         , a challenge for anyone who didn&apos;t know typescript, but a great
-        framework, with all it&apos;s pros and cons, is one of my favorites
-        front-end frameworks to work with, specially for system for company
-        users.
+        framework, with all it&apos;s pros and cons, it is now my favorite front-end
+        framework to work with, specially for internal systems.
       </p>
-      <p className="text-justify">
+      <p>
         Once I managed to get experience enough with angular, an opportunity
         came up, the chance to work with{' '}
         <strong className="text-main-dark underline dark:text-main">
@@ -36,7 +35,7 @@ export const HellowSection: FC = () => {
         could handle Hooks and Redux, everything was smooth, and took it&apos;s
         place as my third favorite framework.
       </p>
-      <p className="text-justify">
+      <p>
         The last but not least,{' '}
         <strong className="text-main-dark underline dark:text-main">
           NextJs
@@ -49,9 +48,12 @@ export const HellowSection: FC = () => {
       </p>
       <p>
         With this kind of experience, and technical knowledge, confidence, a new
-        opportunity was right in front, <strong className='text-main-dark dark:text-main underline'>leadership</strong>, my largest
-        team was made by three front developers, developping a NextJs app, a
-        textile marketplace. Wich is about to be publicated...
+        opportunity was right in front,{' '}
+        <strong className="text-main-dark underline dark:text-main">
+          leadership
+        </strong>
+        , my largest team was made by three front developers, developping a
+        NextJs app, a textile marketplace, wich is about to be publicated...
       </p>
     </div>
   )

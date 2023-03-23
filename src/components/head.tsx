@@ -11,7 +11,7 @@ export const HeadPortfolio = () => {
           md:text-4xl
           "
         >
-          Hi, i&apos;m Abel!
+          Hi, I&apos;m Abel!
         </p>
         <p
           className="
