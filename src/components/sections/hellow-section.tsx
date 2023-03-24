@@ -42,7 +42,7 @@ export const HellowSection: FC = () => {
         </strong>
         , my second favorite framework, It came up, to fix some difficulties of
         the past two... SEO, the capavility to be finded easily on web browsers,
-        just as Google, and some other things, with Server Side Rendering, a
+        such as Google, and some other things, with Server Side Rendering, a
         complete different way to work. Perfect for static sites, just like this
         portfolio, or even better, marketplaces...
       </p>

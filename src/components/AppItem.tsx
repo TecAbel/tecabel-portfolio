@@ -9,7 +9,7 @@ type AppItem = {
 export const AppItem: FC<AppItem> = ({ imageSrc, alt, resume }) => {
   return (
     <div className="flex flex-col gap-4">
-      <div className="relative aspect-video w-full rounded-lg">
+      <div className={(alt === 'walmart' ? 'bg-white ' : '') + 'relative aspect-video w-full  rounded-3xl '}>
         <Image className="rounded-3xl" src={imageSrc} fill alt={alt} />
       </div>
       {resume}
