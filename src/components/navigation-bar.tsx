@@ -45,7 +45,7 @@ const NavSections: FC = () => {
         <Link href={'/'}>Home</Link>
       </li>
       <li>
-        <Link href={'/home'}>Jobs</Link>
+        <Link href={'/jobs'}>Jobs</Link>
       </li>
     </ul>
   )

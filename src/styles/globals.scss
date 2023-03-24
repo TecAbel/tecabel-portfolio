@@ -48,4 +48,8 @@ button:target {
     underline
     underline-offset-2;
   }
+
+  .text-enphasis {
+    @apply text-main-dark dark:text-main underline;
+  }
 }

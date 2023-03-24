@@ -18,7 +18,7 @@ export const HellowSection: FC = () => {
       </p>
       <p>
         At my first job, y learnded an awasome javascript framework...{' '}
-        <strong className="text-main-dark underline dark:text-main">
+        <strong className="text-enphasis">
           Angular
         </strong>
         , a challenge for anyone who didn&apos;t know typescript, but a great
@@ -28,7 +28,7 @@ export const HellowSection: FC = () => {
       <p>
         Once I managed to get experience enough with angular, an opportunity
         came up, the chance to work with{' '}
-        <strong className="text-main-dark underline dark:text-main">
+        <strong className="text-enphasis">
           ReactJs
         </strong>
         , the change was not easy, but the experience was priceless, once I
@@ -37,7 +37,7 @@ export const HellowSection: FC = () => {
       </p>
       <p>
         The last but not least,{' '}
-        <strong className="text-main-dark underline dark:text-main">
+        <strong className="text-enphasis">
           NextJs
         </strong>
         , my second favorite framework, It came up, to fix some difficulties of
@@ -49,7 +49,7 @@ export const HellowSection: FC = () => {
       <p>
         With this kind of experience, and technical knowledge, confidence, a new
         opportunity was right in front,{' '}
-        <strong className="text-main-dark underline dark:text-main">
+        <strong className="text-enphasis">
           leadership
         </strong>
         , my largest team was made by three front developers, developping a
