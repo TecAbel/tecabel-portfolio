@@ -18,6 +18,7 @@ export default function Home() {
             bg-button
             px-3
             rounded-md
+            text-white
             dark:bg-button-dark
             "
             href={'/jobs'}
