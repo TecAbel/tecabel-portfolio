@@ -127,8 +127,9 @@ export default function JobsPage() {
                 alt={'ctx'}
                 resume={
                   <p>
-                    Currently working on a <strong className='text-enphasis'>NextJs</strong>, it is a textile marketplace{' '}
-                    about to be publicated.
+                    Currently working on a{' '}
+                    <strong className="text-enphasis">NextJs</strong> app, it is
+                    a textile marketplace about to be publicated.
                   </p>
                 }
               />
