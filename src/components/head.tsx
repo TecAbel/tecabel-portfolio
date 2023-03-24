@@ -45,6 +45,7 @@ export const HeadPortfolio = () => {
           "
         >
           <Image
+            priority
             className="
           rounded-full 
           border-[5px]
