@@ -5,6 +5,7 @@ import { FaAngular, FaReact } from 'react-icons/fa'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { SiNestjs } from 'react-icons/si'
 import { KEYWORDS_SEO } from '@/utils/keywords'
+import { Analytics } from '@vercel/analytics/react'
 
 type MainLayout = {
   title: string
@@ -55,6 +56,7 @@ export const MainLayout: FC<MainLayout> = ({
             {children}
           </div>
         </div>
+        <Analytics />
       </main>
     </>
   )
