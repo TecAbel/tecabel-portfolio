@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export const MyLinksSection = () => {
   return (
-    <div className="mt-3 w-full">
+    <div className="mt-8 w-full">
       <p className="section-title">My links</p>
       <div className="mt-5 grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-14">
         <Link
@@ -20,7 +20,7 @@ export const MyLinksSection = () => {
           target="_blank"
           href={'https://github.com/TecAbel'}
         >
-          <FaGithub className="text-3xl text-gray-800" /> My Github
+          <FaGithub className="icon-github text-3xl" /> My Github
         </Link>
       </div>
     </div>

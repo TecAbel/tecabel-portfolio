@@ -16,10 +16,6 @@ button:target {
   outline: none;
 }
 
-.icon-linkedin {
-  color: #0d5bba;
-}
-
 @layer components {
   .technology-item {
     @apply mx-auto
@@ -40,7 +36,12 @@ button:target {
       color: #e0234e;
     }
   }
-
+  .icon-linkedin {
+    @apply text-[#0d5bba] dark:text-white;
+  }
+  .icon-github {
+    @apply text-gray-800 dark:text-white;
+  }
   .section-title {
     @apply w-fit
     rounded-md
@@ -57,6 +58,6 @@ button:target {
     @apply text-main-dark underline dark:text-main;
   }
   .my-link {
-    @apply flex items-center gap-2 rounded-xl border-2 border-main p-3 shadow-sm shadow-black;
+    @apply flex items-center gap-2 rounded-xl border-[1px] border-main/20 p-3 shadow-sm shadow-black dark:text-white;
   }
 }
