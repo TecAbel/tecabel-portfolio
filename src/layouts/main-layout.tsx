@@ -4,6 +4,7 @@ import { FC, ReactNode } from 'react'
 import { FaAngular, FaReact } from 'react-icons/fa'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { SiNestjs } from 'react-icons/si'
+import { KEYWORDS_SEO } from '@/utils/keywords'
 
 type MainLayout = {
   title: string
@@ -20,7 +21,9 @@ export const MainLayout: FC<MainLayout> = ({
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="title" content={'Abelardo Aqui Arroyo | Frontend leader'} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content={KEYWORDS_SEO.join(',')} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex w-full flex-col">
@@ -28,14 +31,14 @@ export const MainLayout: FC<MainLayout> = ({
         <div className="mx-auto flex max-w-xl flex-col p-4">
           <div
             className="
+            animate__animated
+            animate__pulse 
             mt-[7rem]
-            grid 
+            grid
             grid-cols-4
             sm:grid-cols-4
             md:grid-cols-4
             lg:grid-cols-4
-            animate__animated
-            animate__pulse
             "
           >
             <FaAngular className="technology-item angular" />
@@ -49,7 +52,6 @@ export const MainLayout: FC<MainLayout> = ({
             animate__fadeInUp
           "
           >
-
             {children}
           </div>
         </div>

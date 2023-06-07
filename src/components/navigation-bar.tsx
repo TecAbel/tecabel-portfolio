@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const NavigationBar: FC = () => {
   return (
-    <div className="fixed z-50 left-0 right-0 w-full">
+    <div className="fixed left-0 right-0 z-50 w-full">
       <div
         className="
         absolute
@@ -16,9 +16,9 @@ export const NavigationBar: FC = () => {
         justify-between
         gap-4
         bg-main/60
-        dark:bg-main-dark/60
-        backdrop-blur-md
         p-3
+        backdrop-blur-md
+        dark:bg-main-dark/60
         "
       >
         <div className="col-span-3 flex gap-4">
@@ -26,7 +26,9 @@ export const NavigationBar: FC = () => {
             <span className="text-2xl">
               <MdDvr />
             </span>{' '}
-            <strong>Abelardo Aqui</strong>
+            <h1>
+              <strong>Abelardo Aqui</strong>
+            </h1>
           </div>
           <NavSections />
         </div>

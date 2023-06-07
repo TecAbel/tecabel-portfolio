@@ -3,7 +3,10 @@ import { MainLayout } from '@/layouts/main-layout'
 
 export default function JobsPage() {
   return (
-    <MainLayout title={'AA | Jobs'} description={'A brief story of my career'}>
+    <MainLayout
+      title={'Abelardo Aqui Arroyo | Jobs'}
+      description={'A brief story of my career'}
+    >
       <div className="mt-12 flex flex-col gap-5">
         <p className="section-title">My jobs</p>
         {/*  start EON era */}

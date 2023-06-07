@@ -1,4 +1,4 @@
-@import "animate.css";
+@import 'animate.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,6 +14,10 @@ button:active,
 button:focus,
 button:target {
   outline: none;
+}
+
+.icon-linkedin {
+  color: #0d5bba;
 }
 
 @layer components {
@@ -41,8 +45,8 @@ button:target {
     @apply w-fit
     rounded-md
     bg-gray-300
-    py-1
     px-3
+    py-1
     text-2xl
     text-main-dark
     underline
@@ -50,6 +54,9 @@ button:target {
   }
 
   .text-enphasis {
-    @apply text-main-dark dark:text-main underline;
+    @apply text-main-dark underline dark:text-main;
+  }
+  .my-link {
+    @apply flex items-center gap-2 rounded-xl border-2 border-main p-3 shadow-sm shadow-black;
   }
 }
