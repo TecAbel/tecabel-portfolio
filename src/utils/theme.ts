@@ -13,7 +13,6 @@ export class ThemePortfolio {
   }
 
   setFirst() {
-
     if (typeof window === undefined) return
     const htmlDocument = document.documentElement
     if (!htmlDocument) return
@@ -23,8 +22,8 @@ export class ThemePortfolio {
       htmlDocument.classList.add('dark')
       this.setStorageTheme('dark')
     } else {
-      htmlDocument.classList.remove('dark')
-      this.setStorageTheme('light')
+      htmlDocument.classList.add('dark')
+      this.setStorageTheme('dark')
     }
   }
   toogleTheme() {
