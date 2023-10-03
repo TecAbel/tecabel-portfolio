@@ -1,5 +1,7 @@
 import { AppItem, JobItem } from '@/components'
 import { MainLayout } from '@/layouts/main-layout'
+import Link from 'next/link'
+import { TbHandClick } from 'react-icons/tb'
 
 export default function JobsPage() {
   return (
@@ -121,7 +123,14 @@ export default function JobsPage() {
                 resume={
                   <p className="text-justify">
                     Develop, maintenance and add new fetatures to the{' '}
-                    <strong className="text-enphasis">API marketplace</strong>{' '}
+                    <Link
+                      href={'https://apimarketplace.scorce.io/#/login'}
+                      target="_blank"
+                      className="text-enphasis flex items-center gap-2"
+                    >
+                      <TbHandClick />
+                      <strong>API marketplace</strong> <TbHandClick />
+                    </Link>
                   </p>
                 }
               />
@@ -131,8 +140,18 @@ export default function JobsPage() {
                 resume={
                   <p>
                     Currently working on a{' '}
-                    <strong className="text-enphasis">NextJs</strong> app, it is
-                    a textile marketplace about to be publicated.
+                    <strong className="text-enphasis">NextJs</strong> app, you
+                    can find it here{' '}
+                    <Link
+                      className="text-enphasis flex items-center gap-2 font-bold"
+                      href={'https://centraltextilera.com'}
+                      target="_blank"
+                    >
+                      <TbHandClick />
+                      <span>Central Textilera</span>
+                      <TbHandClick />
+                    </Link>
+                    .
                   </p>
                 }
               />
