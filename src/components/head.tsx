@@ -53,7 +53,7 @@ export const HeadPortfolio = () => {
           dark:border-main
           "
             alt="Abel"
-            src="/abelaqui.webp"
+            src="/AbelardoAqui.jpg"
             fill
           />
         </div>
