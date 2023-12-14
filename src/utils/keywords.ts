@@ -6,6 +6,7 @@ export const KEYWORDS_SEO = [
   'Abelardo Aqui Arroyo',
   'developer',
   'dev',
+  'desarrollador',
   'frontend-lead',
   'frontend',
   'angular',
@@ -24,5 +25,7 @@ export const KEYWORDS_SEO = [
   'central textilera',
   'scorce',
   'mexico',
-  'tecabel'
+  'tecabel',
+  'ciudad de mexico',
+  'mexico city'
 ]
