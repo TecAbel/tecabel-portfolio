@@ -151,7 +151,6 @@ export default function JobsPage() {
                       <span>Central Textilera</span>
                       <TbHandClick />
                     </Link>
-                    .
                   </p>
                 }
               />

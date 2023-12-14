@@ -1,11 +1,15 @@
 import Link from 'next/link'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaCode, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export const MyLinksSection = () => {
   return (
     <div className="mt-8 w-full">
       <p className="section-title">My links</p>
-      <div className="mt-5 grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-14">
+      <div className="mt-5 grid grid-cols-1 gap-y-4 md:grid-cols-3 md:gap-4">
+        <Link className="my-link enphasis font-bold" href={'/jobs'}>
+          <FaCode className=" text-3xl" />{' '}
+          <span className="underline">My jobs</span>
+        </Link>
         <Link
           className="my-link"
           passHref={false}
