@@ -1,6 +1,6 @@
-import { useReady } from "@/utils/isReady";
-import { ThemePortfolio } from "@/utils/theme";
-import { FC, useEffect, useMemo, useState } from "react";
+import { useReady } from '@/utils/isReady'
+import { ThemePortfolio } from '@/utils/theme'
+import { FC, useEffect, useMemo, useState } from 'react'
 import { MdNightlightRound, MdSunny } from 'react-icons/md'
 
 export const ThemeButton: FC = () => {
@@ -9,13 +9,14 @@ export const ThemeButton: FC = () => {
   useEffect(() => {
     themeService.setFirst()
   }, [themeService])
-  const [currentTheme, setcurrentTheme] = useState(themeService.getStorageTheme())
+  const [currentTheme, setcurrentTheme] = useState(
+    themeService.getStorageTheme()
+  )
   const onThemeToogle = () => {
     themeService.toogleTheme()
     setcurrentTheme(themeService.getStorageTheme())
   }
   return (
-
     <button
       onClick={() => onThemeToogle()}
       className="
@@ -30,11 +31,7 @@ export const ThemeButton: FC = () => {
             dark:shadow-main
             "
     >
-      {
-        loaded && currentTheme == 'light'
-          ? <MdNightlightRound />
-          : <MdSunny />
-      }
+      {loaded && currentTheme == 'light' ? <MdNightlightRound /> : <MdSunny />}
     </button>
   )
 }
