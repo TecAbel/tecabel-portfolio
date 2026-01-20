@@ -27,5 +27,15 @@ export const KEYWORDS_SEO = [
   'mexico',
   'tecabel',
   'ciudad de mexico',
-  'mexico city'
+  'mexico city',
+  'Stefaini Latam',
+  'VASS Latam',
+  'VASS',
+  'Santander',
+  'Consultant',
+  'Consultor',
+  'Consultor en tecnologia',
+  'Consultor en tecnología',
+  'Tech Consultant',
+  'Tech consultant'
 ]
