@@ -11,7 +11,7 @@ export const HeadPortfolio = () => {
         sm:grid-cols-2
     "
     >
-      <div className="flex flex-col justify-between gap-2">
+      <div className="flex flex-col justify-center gap-4 items-center">
         <p
           className="
           text-2xl
@@ -21,16 +21,17 @@ export const HeadPortfolio = () => {
         >
           Hi, I&apos;m Abel!
         </p>
-        <p
+        <h1
           className="
-          text-xl
+          text-2xl
+          text-primary
+          dark: text-primary-dark
           sm:text-2xl
           md:text-3xl
           "
         >
-          A <strong>software developer </strong>
-          and <strong>front-end leader</strong> based in Mexico.
-        </p>
+          <strong>Tech Consultant </strong>
+        </h1>
       </div>
       <div className="relative flex justify-center sm:justify-end">
         <div
@@ -49,8 +50,8 @@ export const HeadPortfolio = () => {
             className="
           rounded-full 
           border-[5px]
-          border-main-dark
-          dark:border-main
+          border-primary
+          dark:border-primary
           "
             alt="Abel"
             src="/AbelardoAqui.jpg"

@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <MainLayout
         title="Abelardo Aqui Arroyo | About me"
-        description="Mi carrera como desarrollador"
+        description="Sr. Consultant"
       >
         <HeadPortfolio />
         <MyLinksSection />

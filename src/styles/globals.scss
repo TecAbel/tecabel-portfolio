@@ -16,6 +16,17 @@ button:target {
   outline: none;
 }
 
+strong {
+  @apply text-primary dark:text-primary-dark;
+}
+
+.btn {
+  @apply bg-primary text-main dark:bg-primary-dark dark:text-main-dark p-2 px-10 rounded-full hover:scale-125  hover:font-bold duration-500  transition-all;
+}
+p {
+  @apply text-text dark:text-text-dark;
+}
+
 @layer components {
   .technology-item {
     @apply mx-auto
@@ -45,7 +56,8 @@ button:target {
   .section-title {
     @apply w-fit
     rounded-md
-    bg-gray-300
+    bg-cards
+    dark:bg-cards-dark
     px-3
     py-1
     text-2xl
@@ -58,9 +70,12 @@ button:target {
     @apply text-main-dark underline dark:text-main;
   }
   .my-link {
-    @apply flex items-center gap-2 rounded-xl border-[1px] border-main/20 p-3 shadow-sm shadow-black dark:text-white;
+    @apply flex items-center gap-2 rounded-xl border-[1px] border-primary/20 p-3 shadow-sm text-primary shadow-primary dark:text-primary  transition-all duration-500 outline-none;
+    &:hover {
+      @apply bg-primary scale-110 text-main dark:!text-main-dark;
+    }
     &.enphasis {
-      @apply dark:text-main;
+      @apply dark:text-primary;
     }
   }
 }

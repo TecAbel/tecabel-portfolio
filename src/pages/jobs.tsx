@@ -6,66 +6,87 @@ import { TbHandClick } from 'react-icons/tb'
 export default function JobsPage() {
   return (
     <MainLayout
-      title={'Abelardo Aqui Arroyo | Jobs'}
+      title={'Abelardo Aqui Arroyo | My Career'}
       description={'A brief story of my career'}
     >
       <div className="mt-12 flex flex-col gap-5">
-        <p className="section-title">My jobs</p>
-        {/*  start EON era */}
+        <p className="section-title">My Career</p>
+        {/*  start VASS era */}
         <JobItem
-          company={'EON Igniting Business'}
+          company={'Sr. Consultant at VASS Latam'}
           resume={
             <>
               <p>
-                The journey started right here, learning{' '}
-                <strong className="text-enphasis">Angular</strong>, and
-                participate on my very first projects.
+                <strong>Strategic Migration:</strong> Led the migration of a
+                legacy banking application for the Human Resources department,
+                optimizing the retrieval of critical information.
               </p>
-              <p>Some of my participation as a front-end developer</p>
+              <p>
+                <strong>Agile Methodologies:</strong> Proposed and implemented
+                an agile workflow that increased progress visibility and
+                improved customer satisfaction through constant tangible
+                results.
+              </p>
+              <p>
+                <strong>DevOps Ecosystem:</strong> Configured pipelines in
+                Jenkins, Pandora, and OpenShift, automating deployment across
+                development, pre-production, and production environments.
+              </p>
+              <p>
+                {' '}
+                <strong>Code Quality:</strong> Achieved excellence standards
+                (zero critical issues) through the rigorous use of SonarQube and
+                Fortify. Technical Solutions: Implemented robust architectures
+                including interceptors, Microsoft EntraID integration, and
+                global error handling.{' '}
+              </p>
             </>
           }
           apps={
             <>
               <AppItem
-                imageSrc="/inteligas.webp"
-                alt="inteligas"
+                imageSrc="/santander.webp"
+                alt="Santander"
                 resume={
                   <p className="text-justify">
-                    Maintenance app to manage gasoline consumption for{' '}
-                    <span className="text-enphasis">SíVale</span>, called{' '}
-                    <span className="text-enphasis">Inteligas</span>.
-                  </p>
-                }
-              />
-              <AppItem
-                imageSrc="/hindernis.webp"
-                alt={'hindernis'}
-                resume={
-                  <p>
-                    Develop an internal app to manage medical supplies for{' '}
-                    <span className="text-enphasis">Hindernis</span>.{' '}
+                    Migration of Human Resources app{' '}
+                    <strong className="text-enphasis">Angular</strong>
                   </p>
                 }
               />
             </>
           }
         />
-        {/*  end EON era */}
+        {/*  end VASS era */}
         {/*  start Stefanini era */}
         <JobItem
-          company={'Stefanini'}
+          company={'Frontend Developer at Stefanini Latam'}
           resume={
             <>
               <p>
-                After a great time as a developer, opportynities came up here I
-                learned <strong className="text-enphasis">leadership</strong>{' '}
-                knowledge such as leading front-end team, apply job interviews
-                to Angular prospects for incomming projects, estimate projects
-                efforts for the front-end team, and more...
+                <strong>Leadership and Mentoring:</strong> Designed and taught
+                intensive Angular courses, achieving rapid training and
+                assignment of new developers to critical projects.{' '}
               </p>
               <p>
-                Some of my participation as a front-end developer and front-end
-                leader
+                <strong>Talent Attraction:</strong> Responsible for the
+                evaluation and application of technical interviews for
+                Angular-level candidates.
+              </p>
+              <p>
+                <strong>Estimation and Analysis:</strong> Performed technical
+                analysis and effort estimation for the company&apos;s new
+                commercial projects.
+              </p>
+              <p>
+                <strong>Multi-framework Development:</strong> Maintenance and
+                creation of complex functionalities using Angular, Ionic, and
+                ReactJS.
+              </p>
+              <p>
+                <strong>Quality Assurance:</strong> Ensured software stability
+                by maintaining a minimum unit testing coverage of 95% (80%
+                minimum required).
               </p>
             </>
           }
@@ -97,21 +118,22 @@ export default function JobsPage() {
         {/*  end Stefanini era */}
         {/*  start MXSS era */}
         <JobItem
-          company={'MX Software Solutions'}
+          company={'Tech Lead at MX Software Solutions'}
           resume={
             <>
               <p>
-                The perfect place to training my developer and leader skills,
-                here I&apos;ve been given trust, support, and knowledge to try
-                new things, and to prepare myself to be better for the team.
+                <strong>Business Impact:</strong> Led the second phase of
+                &quot;Central Textilera,&quot; successfully recovering 70% of
+                the initial investment within its first 6 months of operation.
               </p>
               <p>
-                Here I developed my very first NextJs app and manage my first
-                front-end team.
+                <strong>SEO and Visibility:</strong> Implemented technical
+                strategies to improve platform ranking on search engines.
               </p>
               <p>
-                Some of my participation as a front-end developer and front-end
-                leader
+                <strong>Marketplace Development:</strong> Construction and
+                maintenance of the frontend for the &quot;Scorce API
+                Marketplace&quot;.
               </p>
             </>
           }
@@ -121,17 +143,19 @@ export default function JobsPage() {
                 imageSrc="/scorce.webp"
                 alt="scorce"
                 resume={
-                  <p className="text-justify">
-                    Develop, maintenance and add new fetatures to the{' '}
-                    <Link
-                      href={'https://apimarketplace.scorce.io/#/login'}
-                      target="_blank"
-                      className="text-enphasis flex items-center gap-2"
-                    >
-                      <TbHandClick />
-                      <strong>API marketplace</strong> <TbHandClick />
-                    </Link>
-                  </p>
+                  <>
+                    <p className="text-justify">
+                      Develop, maintenance and add new fetatures to the{' '}
+                      <Link
+                        href={'https://apimarketplace.scorce.io/#/login'}
+                        target="_blank"
+                        className="text-enphasis flex items-center gap-2"
+                      >
+                        <TbHandClick />
+                        <strong>API marketplace</strong> <TbHandClick />
+                      </Link>
+                    </p>
+                  </>
                 }
               />
               <AppItem
@@ -158,6 +182,50 @@ export default function JobsPage() {
           }
         />
         {/*  end MXSS era */}
+        {/*  start EON era */}
+        <JobItem
+          company={'Jr. Frontend at EON Igniting Business'}
+          resume={
+            <>
+              <p>
+                <strong>Technical Debt Resolution:</strong> Collaborated on
+                stabilizing production projects, resolving critical bugs, and
+                adding new features.
+              </p>
+              <p>
+                <strong>Data Visualization:</strong> Developed interactive
+                dashboards for the graphical monitoring of inventory inflows and
+                outflows.
+              </p>{' '}
+            </>
+          }
+          apps={
+            <>
+              <AppItem
+                imageSrc="/inteligas.webp"
+                alt="inteligas"
+                resume={
+                  <p className="text-justify">
+                    Maintenance app to manage gasoline consumption for{' '}
+                    <span className="text-enphasis">SíVale</span>, called{' '}
+                    <span className="text-enphasis">Inteligas</span>.
+                  </p>
+                }
+              />
+              <AppItem
+                imageSrc="/hindernis.webp"
+                alt={'hindernis'}
+                resume={
+                  <p>
+                    Develop an internal app to manage medical supplies for{' '}
+                    <span className="text-enphasis">Hindernis</span>.{' '}
+                  </p>
+                }
+              />
+            </>
+          }
+        />
+        {/*  end EON era */}
       </div>
     </MainLayout>
   )
