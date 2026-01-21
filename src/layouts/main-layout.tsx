@@ -22,9 +22,24 @@ export const MainLayout: FC<MainLayout> = ({
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
-        <meta name="title" content={'Abelardo Aqui Arroyo | Frontend leader'} />
+        <meta name="title" content={'Abelardo Aqui Arroyo | Tech Consultant'} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content={KEYWORDS_SEO.join(',')} />
+        <meta
+          property="og:title"
+          content="Abelardo Aqui Arroyo | Tech Consultant"
+        />
+        <meta property="og:description" content={description} />
+        <meta
+          property="og:image"
+          content="https://www.abelardo-aqui-arroyo.dev/AbelardoAqui.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.abelardo-aqui-arroyo.dev"
+        />
+        <meta property="og:type" content="website" />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex w-full flex-col">
